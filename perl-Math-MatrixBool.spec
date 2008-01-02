@@ -16,6 +16,7 @@ BuildRequires:	perl-devel
 %endif
 BuildRequires:	perl(Bit::Vector)
 BuildArch:	noarch
+BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
 Easy manipulation of matrices of booleans (Boolean Algebra).
