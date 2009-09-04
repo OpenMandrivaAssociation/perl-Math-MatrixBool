@@ -1,7 +1,7 @@
 %define module	Math-MatrixBool
 %define name	perl-%{module}
 %define version 5.7
-%define release %mkrel 8
+%define release %mkrel 9
 
 Name:		%{name}
 Version:	%{version}
